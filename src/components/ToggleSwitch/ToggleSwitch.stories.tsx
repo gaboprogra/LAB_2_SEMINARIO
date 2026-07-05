@@ -33,3 +33,9 @@ export const SinLabel: Story = {
     defaultChecked: true,
   },
 };
+export const ConTextoPersonalizado: Story = {
+  args: {
+    label: 'Acepto términos',
+    defaultChecked: false,
+  },
+};
